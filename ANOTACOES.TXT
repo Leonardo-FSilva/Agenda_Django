@@ -1,0 +1,29 @@
+* Comandos no terminal
+    python manage.py startproject # Iniciar o servidor
+    python manage.py runserver  # iniciar o servidor
+    python manage.py startapp blog  # Para criar apps
+    python manage.py collectstatic # para carregar arquivos staticos para o deploy
+    django-admin startproject Project .  # o ponto final cria o projeto na raiz
+    python manage.py makemigrations  # execultar sempre que alterar o models.py
+    python manage.py migrate  # sincronizar as migrações de banco de dados
+    python manage.py createsuperuser  # criar perfil para o admin
+    python manage.py changepassword USERNAME  # trocar a senha caso esqueça
+
+
+* Codigos de http
+    Respostas Informativas (100 – 199)
+    Respostas bem-sucedidas (200 – 299)
+    Mensagens de redirecionamento (300 – 399)
+    Respostas de erro do cliente (400 – 499)
+    Respostas de erro do servidor (500 – 599)
+
+* API
+    https://jsonplaceholder.typicode.com/
+
+* GITHUB
+    static_files  # Colocar no .gitignore para nao ser feito o commit dessa pasta (copia dos arquivos staticos)
+
+* Login admin
+    Usuario: leonardo
+    E-mail: leonardo_felipe_silva@outlook.com
+    Senha: Djangopython123
